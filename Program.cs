@@ -31,7 +31,9 @@
 
 Calculadora calc = new Calculadora();
 
-calc.somar(2, 3);
-calc.subtrair(2, 3);
-calc.multiplicar(2, 3);
-calc.dividir(18, 3);
+// calc.somar(2, 3);
+// calc.subtrair(2, 3);
+// calc.multiplicar(2, 3);
+// calc.dividir(18, 3);
+// calc.potencia(2, 2);
+calc.potencia(3, 3);

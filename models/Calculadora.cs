@@ -23,5 +23,10 @@ namespace exemploFundamentos.models
         {
             Console.WriteLine($"{x} / {y} = {x / y}");
         }
+        public void potencia(int x, int y)
+        {
+            double pot = Math.Pow(x, y);
+            Console.WriteLine($"{x}^{y} = {pot}");
+        }
     }
 }
