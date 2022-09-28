@@ -36,4 +36,7 @@ Calculadora calc = new Calculadora();
 // calc.multiplicar(2, 3);
 // calc.dividir(18, 3);
 // calc.potencia(2, 2);
-calc.potencia(3, 3);
+// calc.potencia(3, 3);
+calc.Seno(30);
+calc.Coseno(30);
+calc.Tangente(30);
