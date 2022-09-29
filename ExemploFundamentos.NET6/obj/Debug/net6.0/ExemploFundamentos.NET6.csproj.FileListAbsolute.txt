@@ -1,0 +1,15 @@
+C:\workspace\.NET - C#\exemploFundamentos\ExemploFundamentos.NET6\bin\Debug\net6.0\ExemploFundamentos.NET6.exe
+C:\workspace\.NET - C#\exemploFundamentos\ExemploFundamentos.NET6\bin\Debug\net6.0\ExemploFundamentos.NET6.deps.json
+C:\workspace\.NET - C#\exemploFundamentos\ExemploFundamentos.NET6\bin\Debug\net6.0\ExemploFundamentos.NET6.runtimeconfig.json
+C:\workspace\.NET - C#\exemploFundamentos\ExemploFundamentos.NET6\bin\Debug\net6.0\ExemploFundamentos.NET6.dll
+C:\workspace\.NET - C#\exemploFundamentos\ExemploFundamentos.NET6\bin\Debug\net6.0\ExemploFundamentos.NET6.pdb
+C:\workspace\.NET - C#\exemploFundamentos\ExemploFundamentos.NET6\obj\Debug\net6.0\ExemploFundamentos.NET6.csproj.AssemblyReference.cache
+C:\workspace\.NET - C#\exemploFundamentos\ExemploFundamentos.NET6\obj\Debug\net6.0\ExemploFundamentos.NET6.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\.NET - C#\exemploFundamentos\ExemploFundamentos.NET6\obj\Debug\net6.0\ExemploFundamentos.NET6.AssemblyInfoInputs.cache
+C:\workspace\.NET - C#\exemploFundamentos\ExemploFundamentos.NET6\obj\Debug\net6.0\ExemploFundamentos.NET6.AssemblyInfo.cs
+C:\workspace\.NET - C#\exemploFundamentos\ExemploFundamentos.NET6\obj\Debug\net6.0\ExemploFundamentos.NET6.csproj.CoreCompileInputs.cache
+C:\workspace\.NET - C#\exemploFundamentos\ExemploFundamentos.NET6\obj\Debug\net6.0\ExemploFundamentos.NET6.dll
+C:\workspace\.NET - C#\exemploFundamentos\ExemploFundamentos.NET6\obj\Debug\net6.0\refint\ExemploFundamentos.NET6.dll
+C:\workspace\.NET - C#\exemploFundamentos\ExemploFundamentos.NET6\obj\Debug\net6.0\ExemploFundamentos.NET6.pdb
+C:\workspace\.NET - C#\exemploFundamentos\ExemploFundamentos.NET6\obj\Debug\net6.0\ExemploFundamentos.NET6.genruntimeconfig.cache
+C:\workspace\.NET - C#\exemploFundamentos\ExemploFundamentos.NET6\obj\Debug\net6.0\ref\ExemploFundamentos.NET6.dll
