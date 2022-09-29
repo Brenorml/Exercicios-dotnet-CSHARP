@@ -29,7 +29,7 @@
 //     Console.WriteLine("Desculpe. Não temos quantidade desejada em estoque.");
 // }
 
-Calculadora calc = new Calculadora();
+// Calculadora calc = new Calculadora();
 
 // calc.somar(2, 3);
 // calc.subtrair(2, 3);
@@ -40,4 +40,46 @@ Calculadora calc = new Calculadora();
 // calc.Seno(30);
 // calc.Coseno(30);
 // calc.Tangente(30);
-calc.RaizQuadrada(9);
+// calc.RaizQuadrada(9);
+
+string opcao;
+bool exibirMenu = true;
+
+while(exibirMenu)
+{
+    Console.Clear();
+    Console.WriteLine("Digite a sua opção:");
+    Console.WriteLine("1 - Cadastrar cliente");
+    Console.WriteLine("2 - Buscar cliente");
+    Console.WriteLine("3 - Apagar cliente");
+    Console.WriteLine("4 - Encerrar");
+
+    opcao = Console.ReadLine();
+
+    switch(opcao)
+    {
+        case "1":
+        Console.WriteLine("Cadastro de cliente");
+        break;
+
+        case "2":
+        Console.WriteLine("Busca de cliente");
+        break;
+        
+        case "3":
+        Console.WriteLine("Apagar cliente");
+        break;
+        
+        case "4":
+        Console.WriteLine("Encerrar");
+        exibirMenu = false;
+        //Environment.Exit(0);        
+        break;
+
+        default:
+            Console.WriteLine("Opção inválida");
+            break;
+    }
+}
+// Esta linha só será executada se declarada a variável boolean no case 4, de outra forma é encerrado na escolha do case 4
+Console.WriteLine("O Programa foi finalizado");
