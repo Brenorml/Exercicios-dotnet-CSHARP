@@ -1,10 +1,10 @@
 ﻿using exemploFundamentos.Common.models;
 
-Pessoa p = new Pessoa();
+// Pessoa p = new Pessoa();
 
-p.Nome = "Breno";
-p.Idade = 40;
-p.Apresentar();
+// p.Nome = "Breno";
+// p.Idade = 40;
+// p.Apresentar();
 
 // string a = "15";
 // int b = 0;
@@ -83,3 +83,22 @@ p.Apresentar();
 //  }
 //  // Esta linha só será executada se declarada a variável boolean no case 4, de outra forma é encerrado na escolha do case 4
 //  Console.WriteLine("O Programa foi finalizado");
+
+int[] arrayInteiros = new int[4];
+
+arrayInteiros[0] = 44;
+arrayInteiros[1] = 56;
+arrayInteiros[2] = 98;
+arrayInteiros[3] = 1;
+
+Console.WriteLine("Percorrendo o Array com o FOR");
+for(int i = 0; i < arrayInteiros.Length; i++) {
+    Console.WriteLine($"Posição Nº {i} - {arrayInteiros[i]}");
+}
+
+int contador = 0;
+Console.WriteLine("Percorrendo o Array com o FORREACH");
+foreach(int valor in arrayInteiros) {
+    Console.WriteLine("Posição Nº " + contador + " - " + valor);
+    contador++;
+}
