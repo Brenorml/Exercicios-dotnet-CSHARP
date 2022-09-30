@@ -1,10 +1,10 @@
 ﻿using exemploFundamentos.Common.models;
 
-// Pessoa p = new Pessoa();
+Pessoa p = new Pessoa();
 
-// p.Nome = "Breno";
-// p.Idade = 40;
-// p.Apresentar();
+p.Nome = "Breno";
+p.Idade = 40;
+p.Apresentar();
 
 // string a = "15";
 // int b = 0;
@@ -29,9 +29,9 @@
 //     Console.WriteLine("Desculpe. Não temos quantidade desejada em estoque.");
 // }
 
-// Calculadora calc = new Calculadora();
+Calculadora calc = new Calculadora();
 
-// calc.somar(2, 3);
+calc.somar(4, 5);
 // calc.subtrair(2, 3);
 // calc.multiplicar(2, 3);
 // calc.dividir(18, 3);
