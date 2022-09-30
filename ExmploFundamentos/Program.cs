@@ -84,21 +84,57 @@
 //  // Esta linha só será executada se declarada a variável boolean no case 4, de outra forma é encerrado na escolha do case 4
 //  Console.WriteLine("O Programa foi finalizado");
 
-int[] arrayInteiros = new int[4];
+// int[] arrayInteiros = new int[4];
 
-arrayInteiros[0] = 44;
-arrayInteiros[1] = 56;
-arrayInteiros[2] = 98;
-arrayInteiros[3] = 1;
+// arrayInteiros[0] = 44;
+// arrayInteiros[1] = 56;
+// arrayInteiros[2] = 98;
+// arrayInteiros[3] = 1;
 
-Console.WriteLine("Percorrendo o Array com o FOR");
-for(int i = 0; i < arrayInteiros.Length; i++) {
-    Console.WriteLine($"Posição Nº {i} - {arrayInteiros[i]}");
-}
+// // Criando um novo Array e copiando os valores indexados de outro Array
+// int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
+// Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
+
+// Console.WriteLine("Percorrendo o Array com o FOR");
+// for(int i = 0; i < arrayInteirosDobrado.Length; i++) {
+//     Console.WriteLine($"Posição Nº {i} - {arrayInteirosDobrado[i]}");
+// }
+
+// redimensionando um Array criando um copia do Array original com Resize
+// Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+
+// Console.WriteLine("Percorrendo o Array com o FOR");
+// for(int i = 0; i < arrayInteiros.Length; i++) {
+//     Console.WriteLine($"Posição Nº {i} - {arrayInteiros[i]}");
+// }
+
+// int contador = 0;
+// Console.WriteLine("Percorrendo o Array com o FORREACH");
+// foreach(int valor in arrayInteiros) {
+//     Console.WriteLine("Posição Nº " + contador + " - " + valor);
+//     contador++;
+// }
+
+List<string> listaString = new List<string>();
+
+listaString.Add("PE");
+listaString.Add("PB");
+listaString.Add("BA");
+listaString.Add("SC");
+
+Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+listaString.Add("SP");
+
+Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+listaString.Add("PB");
+
+Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
 
 int contador = 0;
 Console.WriteLine("Percorrendo o Array com o FORREACH");
-foreach(int valor in arrayInteiros) {
+foreach(string valor in listaString) {
     Console.WriteLine("Posição Nº " + contador + " - " + valor);
     contador++;
 }
