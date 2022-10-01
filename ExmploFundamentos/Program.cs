@@ -1,10 +1,10 @@
 ﻿using exemploFundamentos.Common.models;
 
-Pessoa p = new Pessoa();
+// Pessoa p = new Pessoa();
 
-p.Nome = "Breno";
-p.Idade = 40;
-p.Apresentar();
+// p.Nome = "Breno";
+// p.Idade = 40;
+// p.Apresentar();
 
 // string a = "15";
 // int b = 0;
@@ -29,9 +29,9 @@ p.Apresentar();
 //     Console.WriteLine("Desculpe. Não temos quantidade desejada em estoque.");
 // }
 
-Calculadora calc = new Calculadora();
+// Calculadora calc = new Calculadora();
 
-calc.somar(4, 5);
+// calc.somar(4, 5);
 // calc.subtrair(2, 3);
 // calc.multiplicar(2, 3);
 // calc.dividir(18, 3);
@@ -65,11 +65,11 @@ calc.somar(4, 5);
 //          case "2":
 //          Console.WriteLine("Busca de cliente");
 //          break;
-        
+
 //          case "3":
 //          Console.WriteLine("Apagar cliente");
 //          break;
-        
+
 //          case "4":
 //          Console.WriteLine("Encerrar");
 //          exibirMenu = false;
@@ -115,26 +115,74 @@ calc.somar(4, 5);
 //     contador++;
 // }
 
-List<string> listaString = new List<string>();
+// List<string> listaString = new List<string>();
 
-listaString.Add("PE");
-listaString.Add("PB");
-listaString.Add("BA");
-listaString.Add("SC");
+// listaString.Add("PE");
+// listaString.Add("PB");
+// listaString.Add("BA");
+// listaString.Add("SC");
 
-Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
 
-listaString.Add("SP");
+// listaString.Add("SP");
 
-Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
 
-listaString.Add("PB");
+// listaString.Add("PB");
 
-Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
 
-int contador = 0;
-Console.WriteLine("Percorrendo o Array com o FORREACH");
-foreach(string valor in listaString) {
-    Console.WriteLine("Posição Nº " + contador + " - " + valor);
-    contador++;
-}
+// int contador = 0;
+// Console.WriteLine("Percorrendo o Array com o FORREACH");
+// foreach(string valor in listaString) {
+//     Console.WriteLine("Posição Nº " + contador + " - " + valor);
+//     contador++;
+// }
+
+// Desafio subtruação do produto pela soma dos algarismos de um valor inteiro
+// int n = int.Parse(Console.ReadLine());
+// int p = 1, s = 0;
+// while(n > 0)
+// {
+//     int l = n % 10;
+//     Console.WriteLine(l);    
+//     p *= l;
+//     s += l;
+//     n /= 10;
+
+// }
+// Console.WriteLine(p - s);
+
+// Desafio do comprimento de B Encaixa ou não ao cumprimento de A
+// int qt = int.Parse(Console.ReadLine());
+//     string[] v = new string[2];
+//     for (int i = 0; i < qt; i++)
+//     {
+//         v = Console.ReadLine().Split(" ");
+//         string a = v[0];
+//         string b = v[1];
+
+//         if (b.Length > a.Length)
+//         Console.WriteLine("nao encaixa");
+//         else if (a.EndsWith(b))
+//         Console.WriteLine("encaixa");
+//         else
+//         Console.WriteLine("nao encaixa");
+//     }
+  
+// Desafio 3 divisores
+// int n = int.Parse(Console.ReadLine());
+//         int count = 0;
+ 
+//         for (int i = 1; i <= n; i++) {
+
+//             if (n % i ==   0  ) {
+//                 count++;
+//             }
+//             if (count >   3   ) {
+//                 Console.WriteLine(false);
+//             }
+//         }
+//          Console.WriteLine(count == 3);
+    
+
